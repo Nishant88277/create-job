@@ -55,10 +55,16 @@ function Card({
                     </div>
                     <div className='flex gap-6'>
                     <button 
-                        className='hover:bg-blue-100 hover:text-white text-blue-100 border-blue-100 border-2 transition 
-                        duration-150 ease-out hover:ease-in rounded-md py-2 px-4'
+                        className='bg-blue-100 hover:bg-white text-white hover:text-blue-100 hover:border-blue-100 border-2 transition 
+                                duration-150 ease-out hover:ease-in rounded-md py-2 px-4'
                     >
-                        {applyType === 'Quick apply' ? 'Apply Now' : 'External Apply'}
+                        Apply Now
+                    </button>
+                    <button 
+                        className='hover:bg-blue-100 hover:text-white text-blue-100 border-blue-100 border-2 transition 
+                                duration-150 ease-out hover:ease-in rounded-md py-2 px-4'
+                    >
+                        External Apply
                     </button>
                     </div>
                 </div>
